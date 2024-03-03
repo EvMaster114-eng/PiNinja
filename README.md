@@ -171,6 +171,8 @@ keycode_win_de.mpy
 
 [CircuitPython HID](https://learn.adafruit.com/circuitpython-essentials/circuitpython-hid-keyboard-and-mouse)
 
+[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://ctt.ac/EUe93)
+
 ## Why use this over other tools?
 
 Good question. The only other tool that comes to mind is [pico-ducky by dbisu](https://github.com/dbisu/pico-ducky/tree/main?tab=readme-ov-file). This is a great tool, and I have used it for a while, but there were some flaws that I noticed.
