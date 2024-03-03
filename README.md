@@ -171,6 +171,10 @@ keycode_win_de.mpy
 
 [CircuitPython HID](https://learn.adafruit.com/circuitpython-essentials/circuitpython-hid-keyboard-and-mouse)
 
+[CircuitPython HID Keycodes](https://docs.circuitpython.org/projects/hid/en/latest/_modules/adafruit_hid/keycode.html)
+
+# Share Me!
+
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://ctt.ac/EUe93)
 
 ## Why use this over other tools?
