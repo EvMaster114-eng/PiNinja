@@ -163,8 +163,12 @@ keycode_win_de.mpy
 
 [CircuitPython HID](https://learn.adafruit.com/circuitpython-essentials/circuitpython-hid-keyboard-and-mouse)
 
+## Why use this over other tools?
 
-## Related Projects
+Good question. The only other tool that comes to mind is [pico-ducky by dbisu](https://github.com/dbisu/pico-ducky/tree/main?tab=readme-ov-file). This is a great tool, and I have used it for a while, but there were some flaws that I noticed.
 
-[Defcon31-ducky](https://github.com/iot-pwn/defcon31-ducky)  
-There are still a few of these available to purchase, US only.
+1. There are open pins on the board, but you cant use them to add external components like buttons or switches.
+2. It uses DuckyScript 1.0, which doesnt allow for things like variables, loops, if statements, etc.
+
+Now dont get me wrong, this is a great tool, and it probably took a good amount of time to code, but I really wanted to fix those flaws. So I made it run python instead of duckyscript. You may ask, "Why wouldn't I just use circutpython, when thats all it runs." While that is true, regular circutpython cannot save multipple scripts, and choose one to run at start.
+
