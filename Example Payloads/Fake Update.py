@@ -23,7 +23,7 @@ def main():
     sleep(0.1)
     kbd.send(key.F11)
     
-    blockInput(2 * 60 + 40)
+    blockInput()
     
     
     
@@ -31,12 +31,10 @@ def main():
 def enter():
     kbd.send(key.ENTER)
     
-def blockInput(duration):
+def blockInput():
     screen_width = 1920
     screen_height = 1080
-    
-    end_time = time() + duration
      
-    while time() < end_time:
+    while True:
         mse.move(x=int(screen_width / 2), y=int(screen_height / 2))
         kbd.release_all()
