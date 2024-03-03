@@ -3,8 +3,16 @@
 <div align="center">
   <strong>Turn your Raspberry Pi Pico into a cheap hacking device</strong>
 </div>
-
 <br />
+<div align="center">
+  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/EvMaster114-eng/PiNinja">
+  <img alt="GitHub license" src="https://img.shields.io/github/license/EvMaster114-eng/PiNinja">
+  <a href="https://github.com/dbisu/pico-ducky/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/EvMaster114-eng/PiNinja"></a>
+  <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/EvMaster114-eng/PiNinja">
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/EvMaster114-eng/PiNinja">
+</div>
+<br />
+
 
 ## Quick Start Guide
 Install and have your PiNinja working in less than 5 minutes.
@@ -32,9 +40,9 @@ Enjoy your PiNinja.
 ## Safe mode
 
 To edit the payload, enter safe mode by connecting the pin 9 (`GP6`) to any ground pin (`GND`), this will stop the PiNinja from running the payload on your computer.
-The easiest way to do so is by using a jumper wire between those pins as seen bellow.
+The easiest way to do so is by using a jumper wire between the pins seen below.
 
-![Safe mode with a jumper](INSERT IMAGE HERE)
+![Safe mode pins](images/safe_mode.png)
 
 ## USB enable/disable mode
 
@@ -45,7 +53,7 @@ This will prevent the PiNinja from showing up as a USB drive when plugged into t
 
 The default mode is USB mass storage disabled.   
 
-![USB enable/disable mode](INSERT IMAGE HERE)
+![USB enable/disable mode](images/show_storage.png)
 
 
 -----
@@ -172,3 +180,4 @@ Good question. The only other tool that comes to mind is [pico-ducky by dbisu](h
 
 Now dont get me wrong, this is a great tool, and it probably took a good amount of time to code, but I really wanted to fix those flaws. So I made it run python instead of duckyscript. You may ask, "Why wouldn't I just use circutpython, when thats all it runs." While that is true, regular circutpython cannot save multipple scripts, and choose one to run at start.
 
+![Logo](images/PiNinja_full.png)
