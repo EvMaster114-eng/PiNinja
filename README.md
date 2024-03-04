@@ -173,6 +173,10 @@ keycode_win_de.mpy
 
 [CircuitPython HID Keycodes](https://docs.circuitpython.org/projects/hid/en/latest/_modules/adafruit_hid/keycode.html)
 
+### Other Useful Links
+
+[Raspberry Pi Pico GPIO Pinout Reference Sheet](https://pico.pinout.xyz/)
+
 # Share Me!
 
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://ctt.ac/EUe93)
