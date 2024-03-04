@@ -1,4 +1,4 @@
-<h1 align="center">PiNinja</h1>
+<h1 align="center">PiNinja 1.0</h1>
 
 <div align="center">
   <strong>Turn your Raspberry Pi Pico into a cheap hacking device</strong>
