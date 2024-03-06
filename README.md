@@ -17,7 +17,7 @@
 ## Quick Start Guide
 Install and have your PiNinja working in less than 5 minutes.
 
-1. Download the latest release from the [Releases](LINK HERE) page.
+1. Download the latest release from the [Releases](https://github.com/EvMaster114-eng/PiNinja/releases/tag/Release) page.
 
 2. Plug the device into a USB port while holding the boot button. It will show up as a removable media device named RPI-RP2.
 
@@ -62,7 +62,7 @@ The default mode is USB mass storage disabled.
 
 Install and have your USB Rubber Ducky working in less than 5 minutes.
 
-1. Clone the repo or download the code to get a local copy of the files.
+1.  Download the latest release from the [Releases](https://github.com/EvMaster114-eng/PiNinja/releases/tag/Release) page.
 
 2. Download [CircuitPython for the Raspberry Pi Pico](https://circuitpython.org/board/raspberry_pi_pico/).
 
