@@ -39,6 +39,11 @@ def pickPayload():
         return "payload.py"
 
 def start():
+
+    led = digitalio.DigitalInOut(board.LED)
+    led.direction = digitalio.Direction.OUTPUT
+    led.value = True
+
     noRunPin.switch_to_input(digitalio.Pull.UP)
 
     run = noRunPin.value
