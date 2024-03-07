@@ -13,6 +13,9 @@
 </div>
 <br />
 
+# WARNING:
+
+The code from the repository page and not the releases page will potentially be unfinished, broken, and/or corrupt. 
 
 ## Quick Start Guide
 Install and have your PiNinja working in less than 5 minutes.
